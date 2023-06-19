@@ -1,0 +1,18 @@
+mygrep: This command searches for patterns in a given file.
+
+Usage: mygrep [OPTIONS]... PATTERNS [FILE]...
+
+Options:
+    -i      ignores case (e.g. matches "AbC" with "aBC")
+    -w      matches only whole words
+    -x      matches only whole lines
+    -n      prints line number with output lines
+    -c      prints only the count of lines in which matches are found
+
+NOTE:
+    1) All the options can be used in succession in any order. E.g -> -ni, -win, -ci, etc.
+    2) A '.' in the input pattern can match with any character.
+    3) In -w option, a word is considered a whole word only if the preceding and succeeding 
+       characters are not alphanumeric.
+    4) If -c is used in combination with any other option, only the count of those lines 
+       is displayed which satisfy the constraints imposed by the other options.

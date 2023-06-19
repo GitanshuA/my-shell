@@ -1,0 +1,16 @@
+mycp: This command copies a source file to destination directory/file.
+
+Usage: mycp [OPTIONS]... [SOURCE]... [DIRECTORY/FILE]
+
+By Default,
+    - The command overwrites the destination file if it exists.
+
+Options:
+    -i      prompts before overwriting (overrides a previous -n option)
+    -n      do not overwrite an existing file (overrides a previous -i option)
+    -u      copy only when the SOURCE file is newer than the destination file
+            or when the destination file is missing
+    -v      explains the undergoing process
+
+NOTE:
+    1) All the options can be used in succession in any order. E.g -> -ni, -uv, -iuv, etc.

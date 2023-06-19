@@ -1,0 +1,17 @@
+myps: This command displays information about a selection of the active processes.
+
+Usage: myps [OPTIONS]
+
+By Default,
+    - The command only displays those processes which are associated with the current terminal.
+
+Options:
+    -e      selects all processes.
+    -a      selects all processes except session leaders and processes not associated with a terminal.
+    -f      lists the processes in full-format.
+    -d      Select all processes except session leaders.
+
+NOTE:
+    1) All the options can be used in succession in any order. E.g -> -ef, -af, -df, etc.
+    2) -d and -e override -a.
+    3) For -f option please keep the terminal window large enough to get good view.

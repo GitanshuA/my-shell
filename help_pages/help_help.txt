@@ -1,0 +1,6 @@
+help: This command displays information about how to use the self-implemented commands.
+
+Usage: help [COMMAND_NAME]
+Supported command names: myls, mycp, mymv, mygrep, myps
+
+To get help for system commands which are not implemented by me, please type: man [COMMAND_NAME]

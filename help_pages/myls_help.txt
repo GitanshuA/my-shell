@@ -1,0 +1,19 @@
+myls: This command lists information about all the files in the given directory.
+
+Usage: myls [OPTIONS]... [DIRECTORY]
+
+By Default,
+    - The directory is set to current directory.
+    - Results are sorted alphabetically.
+
+Options:
+    -l      more detailed listing format
+    -a      entries starting with . are not ignored
+    -S      sort results by file size, largest first
+    -t      sort results by time, lowest first
+    -r      reverses the order of sorting
+
+NOTE:
+    1) All the options can be used in succession in any order. E.g -> -la, -rS, -ltr, etc.
+    2) -r when used with any other option, reverses the default sorting order of that option.
+    3) When more than one sorting-based options are passed, the last option overrides the preceding options.
