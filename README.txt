@@ -1,7 +1,3 @@
-Author: Gitanshu Arora
-Roll No.: CS22BTECH11023
-============================================================================================================
-
 To compile the code, please execute 'make' command in the terminal. On doing this, an executable named myshell will be created
 which can be made to run in the terminal by typing './myshell'.
 
